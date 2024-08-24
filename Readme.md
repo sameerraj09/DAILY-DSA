@@ -1,5 +1,8 @@
-1838. Frequency of the Most Frequent Element
+**1838. Frequency of the Most Frequent Element**
+**Approach:-**
+Sliding winodw
 Code:-
+```
 class Solution {
     public int maxFrequency(int[] nums, int k) {
         Arrays.sort(nums);  // Step 1: Sort the array in ascending order
@@ -25,3 +28,5 @@ class Solution {
         return ans;  // Return the maximum frequency found
     }
 }
+```
+
